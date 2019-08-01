@@ -40,6 +40,8 @@ defmodule Pilot.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      ## Library Dependencies
+      {:starship, github: "coby-spotim/starship"},
       ## Testing and Development Dependencies
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:credo, "~> 1.0.0", only: :dev, runtime: false},
