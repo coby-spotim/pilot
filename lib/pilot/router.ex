@@ -14,54 +14,66 @@ defmodule Pilot.Router do
   @doc """
   Creates a handler for an HTTP GET request to the webserver.
   """
-  defmacro get(_path, do: _block) do
+  defmacro get(path, do: block) do
+    match(:GET, path, do: block)
   end
 
   @doc """
   Creates a handler for an HTTP POST request to the webserver.
   """
-  defmacro post(_path, do: _block) do
+  defmacro post(path, do: block) do
+    match(:POST, path, do: block)
   end
 
   @doc """
   Creates a handler for an HTTP PUT request to the webserver.
   """
-  defmacro put(_path, do: _block) do
+  defmacro put(path, do: block) do
+    match(:PUT, path, do: block)
   end
 
   @doc """
   Creates a handler for an HTTP DELETE request to the webserver.
   """
-  defmacro delete(_path, do: _block) do
+  defmacro delete(path, do: block) do
+    match(:DELETE, path, do: block)
   end
 
   @doc """
   Creates a handler for an HTTP PATCH request to the webserver.
   """
-  defmacro patch(_path, do: _block) do
+  defmacro patch(path, do: block) do
+    match(:PATCH, path, do: block)
   end
 
   @doc """
   Creates a handler for an HTTP HEAD request to the webserver.
   """
-  defmacro head(_path, do: _block) do
+  defmacro head(path, do: block) do
+    match(:HEAD, path, do: block)
   end
 
   @doc """
   Creates a handler for an HTTP OPTIONS request to the webserver.
   """
-  defmacro options(_path, do: _block) do
+  defmacro options(path, do: block) do
+    match(:OPTIONS, path, do: block)
   end
 
   @doc """
   Creates a handler for an HTTP CONNECT request to the webserver.
   """
-  defmacro connect(_path, do: _block) do
+  defmacro connect(path, do: block) do
+    match(:CONNECT, path, do: block)
   end
 
   @doc """
   Creates a handler for an HTTP TRACE request to the webserver.
   """
-  defmacro trace(_path, do: _block) do
+  defmacro trace(path, do: block) do
+    match(:TRACE, path, do: block)
+  end
+
+  defp match(_method, _path, do: _block) do
   end
 end
