@@ -47,7 +47,7 @@ defmodule Pilot.MixProject do
       {:credo, "~> 1.0.0", only: :dev, runtime: false},
       {:dialyxir, "~> 0.5", only: [:dev], runtime: false},
       {:excoveralls, "~> 0.10", only: :test},
-      {:remixed_remix, "~> 1.0.0", only: :dev}
+      {:remixed_remix, "~> 2.0.2", only: :dev}
     ]
   end
 
