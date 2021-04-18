@@ -17,6 +17,6 @@
   "parse_trans": {:hex, :parse_trans, "3.3.0", "09765507a3c7590a784615cfd421d101aec25098d50b89d7aa1d66646bc571c1", [:rebar3], [], "hexpm", "17ef63abde837ad30680ea7f857dd9e7ced9476cdd7b0394432af4bfc241b960"},
   "remixed_remix": {:hex, :remixed_remix, "2.0.2", "17305cc2219193c5c443fb5e59e7c67e77a70a80db55fa95068355c0de3bd575", [:mix], [], "hexpm", "2d73083e2e1ad31f742275323c4ad3c184924932346721447e8e5905326a99c4"},
   "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.4", "f0eafff810d2041e93f915ef59899c923f4568f4585904d010387ed74988e77b", [:make, :mix, :rebar3], [], "hexpm", "603561dc0fd62f4f2ea9b890f4e20e1a0d388746d6e20557cafb1b16950de88c"},
-  "starship": {:git, "https://github.com/probably-not/starship.git", "46bffd082451e8964c8927a71ee294eaaa420762", []},
+  "starship": {:git, "https://github.com/probably-not/starship.git", "b2296d8c51246ab77c8ece9a5e0d2a32c130b03e", []},
   "unicode_util_compat": {:hex, :unicode_util_compat, "0.4.1", "d869e4c68901dd9531385bb0c8c40444ebf624e60b6962d95952775cac5e90cd", [:rebar3], [], "hexpm", "1d1848c40487cdb0b30e8ed975e34e025860c02e419cb615d255849f3427439d"},
 }
