@@ -10,7 +10,7 @@ defmodule Pilot.MixProject do
       start_permanent: Mix.env() == :prod,
       package: package(),
       name: "Pilot",
-      source_url: "https://github.com/coby-spotim/pilot",
+      source_url: "https://github.com/probably-not/pilot",
       deps: deps(),
       elixirc_paths: elixirc_paths(Mix.env()),
       # elixirc_options: [warnings_as_errors: true],
@@ -41,7 +41,7 @@ defmodule Pilot.MixProject do
   defp deps do
     [
       ## Library Dependencies
-      {:starship, github: "coby-spotim/starship"},
+      {:starship, github: "probably-not/starship"},
       ## Testing and Development Dependencies
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:credo, "~> 1.0.0", only: :dev, runtime: false},
@@ -58,7 +58,7 @@ defmodule Pilot.MixProject do
       # These are the default files included in the package
       files: ["lib", "mix.exs", "README.md"],
       maintainers: ["Coby Benveniste"],
-      links: %{"GitHub" => "https://github.com/coby-spotim/pilot"},
+      links: %{"GitHub" => "https://github.com/probably-not/pilot"},
       licenses: ["MIT License"]
     ]
   end
